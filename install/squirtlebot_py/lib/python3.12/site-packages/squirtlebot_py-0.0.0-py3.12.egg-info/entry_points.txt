@@ -1,0 +1,3 @@
+[console_scripts]
+squirtle_controller_lifecycle_manager = squirtlebot_py.squirtle_controller_lifecycle_manager:main
+turtlebot3_controller_lifecycle_manager = squirtlebot_py.turtlebot3_controller_lifecycle_manager:main

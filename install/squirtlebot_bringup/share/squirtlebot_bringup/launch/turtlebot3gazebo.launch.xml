@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+    <set_env name="TURTLEBOT3_MODEL" value="waffle" />
+    <include file="$(find-pkg-share turtlebot3_gazebo)/launch/empty_world.launch.py" />
+    
+    <node pkg="squirtlebot_nodes" exec="turtlebot3_controller" name="turtlebot3_controller" />
+    <node pkg="squirtlebot_py" exec="turtlebot3_controller_lifecycle_manager" name="turtlebot3_controller_lifecycle_manager" />
+
+</launch>

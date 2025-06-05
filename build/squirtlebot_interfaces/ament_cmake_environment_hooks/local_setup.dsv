@@ -1,0 +1,4 @@
+source;share/squirtlebot_interfaces/environment/ament_prefix_path.sh
+source;share/squirtlebot_interfaces/environment/library_path.sh
+source;share/squirtlebot_interfaces/environment/path.sh
+source;share/squirtlebot_interfaces/environment/pythonpath.sh

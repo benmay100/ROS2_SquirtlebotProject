@@ -1,0 +1,17 @@
+# Goal
+float64 linear_x  #between -5 to +5
+float64 angular_z #between -5 to +5
+int32 duration #seconds, maximum 20
+---
+# Result
+float64 final_position_x 
+float64 final_position_y 
+float64 final_theta_angle 
+string result_message #E.g. 'successfully arrived at position'
+---
+# Feedback
+float64 current_position_x 
+float64 current_position_y 
+float64 current_theta_angle 
+string status #E.g. queued
+

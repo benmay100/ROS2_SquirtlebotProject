@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from squirtlebot_interfaces/srv/KillSquirtle.srv
+// generated code does not contain a copyright notice
+
+
+module squirtlebot_interfaces {
+  module srv {
+    struct KillSquirtle_Request {
+      boolean kill_active_squirtle;
+    };
+    struct KillSquirtle_Response {
+      boolean success;
+    };
+  };
+};

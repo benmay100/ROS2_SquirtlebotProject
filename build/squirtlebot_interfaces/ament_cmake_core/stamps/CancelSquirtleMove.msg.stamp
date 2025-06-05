@@ -1,0 +1,1 @@
+bool cancel_move #true to cancel

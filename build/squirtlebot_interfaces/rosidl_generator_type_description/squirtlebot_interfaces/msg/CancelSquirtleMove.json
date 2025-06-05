@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "squirtlebot_interfaces/msg/CancelSquirtleMove",
+      "fields": [
+        {
+          "name": "cancel_move",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "squirtlebot_interfaces/msg/CancelSquirtleMove",
+      "hash_string": "RIHS01_83b21062e9d0ea620310e0f397a26ee432edc72187c58013885c88abbfbe695d"
+    }
+  ]
+}

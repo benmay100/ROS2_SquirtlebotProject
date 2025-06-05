@@ -1,0 +1,7 @@
+{
+  "package_name": "squirtlebot_interfaces",
+  "non_idl_tuples": [
+    "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/src/squirtlebot_interfaces:action/SquirtleMove.action",
+    "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/src/squirtlebot_interfaces:msg/CancelSquirtleMove.msg"
+  ]
+}

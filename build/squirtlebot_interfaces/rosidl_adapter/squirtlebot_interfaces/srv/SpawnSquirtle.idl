@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from squirtlebot_interfaces/srv/SpawnSquirtle.srv
+// generated code does not contain a copyright notice
+
+
+module squirtlebot_interfaces {
+  module srv {
+    struct SpawnSquirtle_Request {
+      boolean spawn_new_squirtle;
+
+      @verbatim (language="comment", text=
+        "Optional: default value is 5.54")
+      @default (value=5.54)
+      float x;
+
+      @verbatim (language="comment", text=
+        "Optional: default value is 5.54")
+      @default (value=5.54)
+      float y;
+
+      @verbatim (language="comment", text=
+        "Optional: default value is 0.00")
+      @default (value=0.0)
+      float theta;
+    };
+    struct SpawnSquirtle_Response {
+      boolean success;
+    };
+  };
+};

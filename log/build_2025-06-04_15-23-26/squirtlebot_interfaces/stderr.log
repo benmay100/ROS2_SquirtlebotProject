@@ -1,0 +1,9 @@
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+  rosidl_generate_interfaces() the passed file 'msg/KillSpawnSquirtle.msg'
+  doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/src/squirtlebot_interfaces'
+Call Stack (most recent call first):
+  CMakeLists.txt:12 (rosidl_generate_interfaces)
+
+[0m
+gmake: *** [Makefile:2165: cmake_check_build_system] Error 1

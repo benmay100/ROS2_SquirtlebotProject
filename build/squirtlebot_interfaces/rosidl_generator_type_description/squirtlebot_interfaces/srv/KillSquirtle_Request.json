@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "squirtlebot_interfaces/srv/KillSquirtle_Request",
+      "fields": [
+        {
+          "name": "kill_active_squirtle",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "squirtlebot_interfaces/srv/KillSquirtle_Request",
+      "hash_string": "RIHS01_71c7624bb2f684bec334b89831ff8d79c840c425679fefdceed5a973fd7c59ff"
+    }
+  ]
+}

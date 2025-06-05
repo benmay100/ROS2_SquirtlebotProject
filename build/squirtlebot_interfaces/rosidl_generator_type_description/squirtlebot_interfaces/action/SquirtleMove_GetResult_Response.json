@@ -1,0 +1,86 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "squirtlebot_interfaces/action/SquirtleMove_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "squirtlebot_interfaces/action/SquirtleMove_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "squirtlebot_interfaces/action/SquirtleMove_Result",
+        "fields": [
+          {
+            "name": "final_position_x",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "final_position_y",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "final_theta_angle",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "result_message",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "squirtlebot_interfaces/action/SquirtleMove_GetResult_Response",
+      "hash_string": "RIHS01_c2d15412b01843408833be13c30dac5483f283465bd94bc90bd7b6f2ebec31c8"
+    },
+    {
+      "type_name": "squirtlebot_interfaces/action/SquirtleMove_Result",
+      "hash_string": "RIHS01_23ef3810c34c117f8adc4181026e152874b8ab120cc5c4a2e7a0354d630db6a0"
+    }
+  ]
+}

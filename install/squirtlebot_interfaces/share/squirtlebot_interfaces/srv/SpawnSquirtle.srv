@@ -1,0 +1,6 @@
+bool spawn_new_squirtle
+float32 x 5.54                 # Optional: default value is 5.54
+float32 y 5.54                 # Optional: default value is 5.54
+float32 theta 0.00             # Optional: default value is 0.00
+---
+bool success

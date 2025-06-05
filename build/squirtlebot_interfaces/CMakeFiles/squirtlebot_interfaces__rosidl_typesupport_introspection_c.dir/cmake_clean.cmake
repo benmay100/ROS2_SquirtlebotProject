@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/squirtlebot_interfaces/action/detail/squirtle_move__type_support.c.o"
+  "CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/squirtlebot_interfaces/action/detail/squirtle_move__type_support.c.o.d"
+  "CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__type_support.c.o"
+  "CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__type_support.c.o.d"
+  "libsquirtlebot_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libsquirtlebot_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/squirtlebot_interfaces/action/detail/squirtle_move__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/squirtlebot_interfaces/action/detail/squirtle_move__type_support.c"
+  "rosidl_typesupport_introspection_c/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

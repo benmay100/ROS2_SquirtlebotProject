@@ -1,0 +1,26 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+-- Found squirtlebot_interfaces: 0.0.0 (/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake)
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_nodes
+[ 25%] [32mBuilding CXX object CMakeFiles/squirtle_controller.dir/src/squirtle_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/squirtle_bridge.dir/src/squirtle_bridge.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable squirtle_controller[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/squirtle_controller.dir/build.make:193: squirtle_controller] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/squirtle_controller.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[100%] [32m[1mLinking CXX executable squirtle_bridge[0m
+[100%] Built target squirtle_bridge
+gmake: *** [Makefile:146: all] Error 2

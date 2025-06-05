@@ -1,0 +1,36 @@
+[0.010s] Invoking command in '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/actions_py:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/executors_py:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/components_py:/home/ben-may/ROS_Workspaces/ros2_ws_moverobot/install/move_robot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/src/squirtlebot_nodes -DCMAKE_INSTALL_PREFIX=/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_nodes
+[0.073s] -- The C compiler identification is GNU 13.3.0
+[0.119s] -- The CXX compiler identification is GNU 13.3.0
+[0.131s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.218s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.218s] -- Detecting C compile features
+[0.218s] -- Detecting C compile features - done
+[0.226s] -- Detecting CXX compiler ABI info
+[0.326s] -- Detecting CXX compiler ABI info - done
+[0.331s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.331s] -- Detecting CXX compile features
+[0.332s] -- Detecting CXX compile features - done
+[0.334s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.436s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.509s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.538s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.548s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.559s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.571s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.621s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.623s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.699s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.715s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.736s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.785s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.817s] -- Found squirtlebot_interfaces: 0.0.0 (/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake)
+[0.829s] -- Configuring incomplete, errors occurred!
+[0.829s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.829s]   ament_target_dependencies() the passed package name 'squirtle_bridge' was
+[0.829s]   not found before
+[0.829s] Call Stack (most recent call first):
+[0.829s]   CMakeLists.txt:19 (ament_target_dependencies)
+[0.829s] 
+[0.829s] [0m
+[0.835s] Invoked command in '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_nodes' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/actions_py:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/executors_py:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/components_py:/home/ben-may/ROS_Workspaces/ros2_ws_moverobot/install/move_robot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/src/squirtlebot_nodes -DCMAKE_INSTALL_PREFIX=/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_nodes

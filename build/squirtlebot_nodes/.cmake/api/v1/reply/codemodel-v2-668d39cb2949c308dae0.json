@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-98dd801bb7e1fe932f7e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "squirtlebot_nodes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "squirtle_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-squirtle_controller-883b8415e75bc72abf3e.json",
+					"name" : "squirtle_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "squirtlebot_nodes_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-squirtlebot_nodes_uninstall-68147514ae989a98d97c.json",
+					"name" : "squirtlebot_nodes_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_controller-deaddb543492bcda6213.json",
+					"name" : "turtlebot3_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-fc2d7f3b5995afe83b1a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_nodes",
+		"source" : "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/src/squirtlebot_nodes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

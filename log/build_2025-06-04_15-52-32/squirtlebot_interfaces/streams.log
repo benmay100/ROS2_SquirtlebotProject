@@ -1,0 +1,356 @@
+[0.008s] Invoking command in '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/actions_py:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/executors_py:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/components_py:/home/ben-may/ROS_Workspaces/ros2_ws_moverobot/install/move_robot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_interfaces -- -j20 -l20
+[0.029s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.045s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.090s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.092s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.112s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.127s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.312s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.373s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.451s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.612s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.622s] -- Configuring done (0.6s)
+[0.641s] -- Generating done (0.0s)
+[0.648s] -- Build files have been written to: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_interfaces
+[0.672s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.682s] [  2%] Built target ament_cmake_python_copy_squirtlebot_interfaces
+[0.799s] running egg_info
+[0.808s] writing squirtlebot_interfaces.egg-info/PKG-INFO
+[0.808s] writing dependency_links to squirtlebot_interfaces.egg-info/dependency_links.txt
+[0.808s] writing top-level names to squirtlebot_interfaces.egg-info/top_level.txt
+[0.834s] [  2%] Built target squirtlebot_interfaces__rosidl_generator_type_description
+[0.835s] reading manifest file 'squirtlebot_interfaces.egg-info/SOURCES.txt'
+[0.835s] writing manifest file 'squirtlebot_interfaces.egg-info/SOURCES.txt'
+[0.843s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.850s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.852s] [  6%] Built target ament_cmake_python_build_squirtlebot_interfaces_egg
+[1.129s] [  6%] Built target squirtlebot_interfaces__cpp
+[1.162s] [  9%] [32mBuilding C object CMakeFiles/squirtlebot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__functions.c.o[0m
+[1.163s] [ 11%] [32mBuilding C object CMakeFiles/squirtlebot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/squirtlebot_interfaces/action/detail/squirtle_move__type_support.c.o[0m
+[1.163s] [ 13%] [32mBuilding C object CMakeFiles/squirtlebot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__type_support.c.o[0m
+[1.164s] [ 15%] [32mBuilding C object CMakeFiles/squirtlebot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/squirtlebot_interfaces/action/detail/squirtle_move__description.c.o[0m
+[1.164s] [ 18%] [32mBuilding C object CMakeFiles/squirtlebot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/squirtlebot_interfaces/action/detail/squirtle_move__functions.c.o[0m
+[1.165s] [ 20%] [32mBuilding C object CMakeFiles/squirtlebot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__description.c.o[0m
+[1.285s] [ 22%] [32m[1mLinking C shared library libsquirtlebot_interfaces__rosidl_generator_c.so[0m
+[1.312s] [ 22%] Built target squirtlebot_interfaces__rosidl_generator_c
+[1.321s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.322s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.322s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.322s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.322s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.325s] [ 36%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.591s] [ 40%] [32mBuilding CXX object CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/squirtlebot_interfaces/msg/cancel_squirtle_move__type_support.cpp.o[0m
+[1.591s] [ 40%] [32mBuilding CXX object CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/squirtlebot_interfaces/action/squirtle_move__type_support.cpp.o[0m
+[1.595s] [ 45%] [32mBuilding CXX object CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/squirtlebot_interfaces/action/squirtle_move__type_support.cpp.o[0m
+[1.595s] [ 45%] [32mBuilding CXX object CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/squirtlebot_interfaces/msg/cancel_squirtle_move__type_support.cpp.o[0m
+[1.627s] [ 47%] [32mBuilding CXX object CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__type_support.cpp.o[0m
+[1.628s] [ 50%] [32mBuilding CXX object CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/squirtlebot_interfaces/action/detail/squirtle_move__type_support.cpp.o[0m
+[1.642s] [ 52%] [32mBuilding C object CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__type_support.c.o[0m
+[1.645s] [ 54%] [32mBuilding C object CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/squirtlebot_interfaces/action/detail/squirtle_move__type_support.c.o[0m
+[1.660s] [ 56%] [32m[1mLinking CXX shared library libsquirtlebot_interfaces__rosidl_typesupport_c.so[0m
+[1.708s] [ 56%] Built target squirtlebot_interfaces__rosidl_typesupport_c
+[1.728s] [ 59%] [32mBuilding CXX object CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/squirtlebot_interfaces/msg/detail/dds_fastrtps/cancel_squirtle_move__type_support.cpp.o[0m
+[1.729s] [ 61%] [32m[1mLinking C shared library libsquirtlebot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.731s] [ 63%] [32mBuilding CXX object CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/squirtlebot_interfaces/action/detail/dds_fastrtps/squirtle_move__type_support.cpp.o[0m
+[1.764s] [ 63%] Built target squirtlebot_interfaces__rosidl_typesupport_introspection_c
+[1.767s] [ 65%] [32mBuilding CXX object CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/squirtlebot_interfaces/action/detail/squirtle_move__type_support_c.cpp.o[0m
+[1.767s] [ 68%] [32mBuilding CXX object CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__type_support_c.cpp.o[0m
+[2.086s] [ 70%] [32m[1mLinking CXX shared library libsquirtlebot_interfaces__rosidl_typesupport_cpp.so[0m
+[2.143s] [ 70%] Built target squirtlebot_interfaces__rosidl_typesupport_cpp
+[2.197s] [ 72%] [32m[1mLinking CXX shared library libsquirtlebot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.235s] [ 75%] [32m[1mLinking CXX shared library libsquirtlebot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.249s] [ 75%] Built target squirtlebot_interfaces__rosidl_typesupport_fastrtps_c
+[2.287s] [ 75%] Built target squirtlebot_interfaces__rosidl_typesupport_introspection_cpp
+[2.384s] [ 77%] [32m[1mLinking CXX shared library libsquirtlebot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.437s] [ 77%] Built target squirtlebot_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.451s] [ 77%] Built target squirtlebot_interfaces
+[2.474s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.907s] [ 79%] Built target squirtlebot_interfaces__py
+[2.926s] [ 84%] [32mBuilding C object CMakeFiles/squirtlebot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/squirtlebot_interfaces/msg/_cancel_squirtle_move_s.c.o[0m
+[2.926s] [ 84%] [32mBuilding C object CMakeFiles/squirtlebot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/squirtlebot_interfaces/action/_squirtle_move_s.c.o[0m
+[3.044s] [ 86%] [32m[1mLinking C shared library libsquirtlebot_interfaces__rosidl_generator_py.so[0m
+[3.082s] [ 86%] Built target squirtlebot_interfaces__rosidl_generator_py
+[3.104s] [ 88%] [32mBuilding C object CMakeFiles/squirtlebot_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/squirtlebot_interfaces/_squirtlebot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.105s] [ 90%] [32mBuilding C object CMakeFiles/squirtlebot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/squirtlebot_interfaces/_squirtlebot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.105s] [ 93%] [32mBuilding C object CMakeFiles/squirtlebot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/squirtlebot_interfaces/_squirtlebot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.184s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/squirtlebot_interfaces/squirtlebot_interfaces_s__rosidl_typesupport_c.so[0m
+[3.185s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/squirtlebot_interfaces/squirtlebot_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[3.185s] [100%] [32m[1mLinking C shared module rosidl_generator_py/squirtlebot_interfaces/squirtlebot_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.207s] [100%] Built target squirtlebot_interfaces_s__rosidl_typesupport_introspection_c
+[3.209s] [100%] Built target squirtlebot_interfaces_s__rosidl_typesupport_c
+[3.210s] [100%] Built target squirtlebot_interfaces_s__rosidl_typesupport_fastrtps_c
+[3.218s] Invoked command in '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/actions_py:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/executors_py:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/components_py:/home/ben-may/ROS_Workspaces/ros2_ws_moverobot/install/move_robot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_interfaces -- -j20 -l20
+[3.224s] Invoking command in '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/actions_py:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/executors_py:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/components_py:/home/ben-may/ROS_Workspaces/ros2_ws_moverobot/install/move_robot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_interfaces
+[3.232s] -- Install configuration: ""
+[3.232s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/ament_index/resource_index/rosidl_interfaces/squirtlebot_interfaces
+[3.232s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/action/SquirtleMove.json
+[3.232s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/msg/CancelSquirtleMove.json
+[3.233s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces
+[3.233s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action
+[3.233s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail
+[3.233s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/squirtle_move__functions.h
+[3.233s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/squirtle_move__description.c
+[3.233s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/squirtle_move__type_support.c
+[3.233s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/squirtle_move__functions.c
+[3.233s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/squirtle_move__type_support.h
+[3.233s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/squirtle_move__struct.h
+[3.233s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/squirtle_move.h
+[3.233s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv
+[3.233s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/kill_squirtle.h
+[3.233s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail
+[3.233s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/kill_squirtle__struct.h
+[3.233s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/kill_squirtle__functions.c
+[3.233s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/spawn_squirtle__description.c
+[3.233s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/kill_squirtle__description.c
+[3.233s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/spawn_squirtle__type_support.c
+[3.233s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/kill_squirtle__type_support.c
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/spawn_squirtle__type_support.h
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/spawn_squirtle__functions.h
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/spawn_squirtle__functions.c
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/spawn_squirtle__struct.h
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/kill_squirtle__functions.h
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/kill_squirtle__type_support.h
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/spawn_squirtle.h
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/active_squirtle_stats__functions.c
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/kill_spawn_squirtle__functions.c
+[3.234s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__type_support.c
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/kill_spawn_squirtle__type_support.h
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/active_squirtle_stats__description.c
+[3.234s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__functions.h
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/active_squirtle_stats__struct.h
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/kill_spawn_squirtle__functions.h
+[3.234s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__functions.c
+[3.234s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__type_support.h
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/active_squirtle_stats__type_support.c
+[3.234s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/kill_spawn_squirtle__type_support.c
+[3.234s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__struct.h
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/active_squirtle_stats__type_support.h
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/kill_spawn_squirtle__description.c
+[3.235s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__description.c
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/active_squirtle_stats__functions.h
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/kill_spawn_squirtle__struct.h
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/kill_spawn_squirtle.h
+[3.235s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/cancel_squirtle_move.h
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/active_squirtle_stats.h
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/environment/library_path.sh
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/environment/library_path.dsv
+[3.235s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/libsquirtlebot_interfaces__rosidl_generator_c.so
+[3.235s] -- Set non-toolchain portion of runtime path of "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/libsquirtlebot_interfaces__rosidl_generator_c.so" to ""
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail
+[3.235s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/squirtle_move__rosidl_typesupport_fastrtps_c.h
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/kill_squirtle__rosidl_typesupport_fastrtps_c.h
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/spawn_squirtle__rosidl_typesupport_fastrtps_c.h
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail
+[3.235s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/active_squirtle_stats__rosidl_typesupport_fastrtps_c.h
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/kill_spawn_squirtle__rosidl_typesupport_fastrtps_c.h
+[3.236s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__rosidl_typesupport_fastrtps_c.h
+[3.236s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/libsquirtlebot_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.236s] -- Set non-toolchain portion of runtime path of "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/libsquirtlebot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail
+[3.236s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/squirtle_move__rosidl_typesupport_introspection_c.h
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/squirtle_move__type_support.c
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/spawn_squirtle__type_support.c
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/kill_squirtle__type_support.c
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/spawn_squirtle__rosidl_typesupport_introspection_c.h
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/kill_squirtle__rosidl_typesupport_introspection_c.h
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__type_support.c
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/active_squirtle_stats__rosidl_typesupport_introspection_c.h
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/kill_spawn_squirtle__rosidl_typesupport_introspection_c.h
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/active_squirtle_stats__type_support.c
+[3.236s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/kill_spawn_squirtle__type_support.c
+[3.236s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__rosidl_typesupport_introspection_c.h
+[3.236s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/libsquirtlebot_interfaces__rosidl_typesupport_introspection_c.so
+[3.236s] -- Set non-toolchain portion of runtime path of "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/libsquirtlebot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.237s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/libsquirtlebot_interfaces__rosidl_typesupport_c.so
+[3.237s] -- Set non-toolchain portion of runtime path of "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/libsquirtlebot_interfaces__rosidl_typesupport_c.so" to ""
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail
+[3.237s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/squirtle_move__type_support.hpp
+[3.237s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/squirtle_move__struct.hpp
+[3.237s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/squirtle_move__traits.hpp
+[3.237s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/squirtle_move__builder.hpp
+[3.237s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/squirtle_move.hpp
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/spawn_squirtle__builder.hpp
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/spawn_squirtle__traits.hpp
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/kill_squirtle__builder.hpp
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/kill_squirtle__traits.hpp
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/kill_squirtle__struct.hpp
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/spawn_squirtle__struct.hpp
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/spawn_squirtle__type_support.hpp
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/kill_squirtle__type_support.hpp
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/spawn_squirtle.hpp
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/kill_squirtle.hpp
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg
+[3.237s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/kill_spawn_squirtle__builder.hpp
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/active_squirtle_stats__type_support.hpp
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/active_squirtle_stats__struct.hpp
+[3.237s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/active_squirtle_stats__traits.hpp
+[3.237s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__type_support.hpp
+[3.238s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__builder.hpp
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/active_squirtle_stats__builder.hpp
+[3.238s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__struct.hpp
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/kill_spawn_squirtle__type_support.hpp
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/kill_spawn_squirtle__traits.hpp
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/kill_spawn_squirtle__struct.hpp
+[3.238s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__traits.hpp
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/active_squirtle_stats.hpp
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/kill_spawn_squirtle.hpp
+[3.238s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/cancel_squirtle_move.hpp
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/dds_fastrtps
+[3.238s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/squirtle_move__rosidl_typesupport_fastrtps_cpp.hpp
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/dds_fastrtps
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/kill_squirtle__rosidl_typesupport_fastrtps_cpp.hpp
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/spawn_squirtle__rosidl_typesupport_fastrtps_cpp.hpp
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/dds_fastrtps
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/active_squirtle_stats__rosidl_typesupport_fastrtps_cpp.hpp
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/kill_spawn_squirtle__rosidl_typesupport_fastrtps_cpp.hpp
+[3.238s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__rosidl_typesupport_fastrtps_cpp.hpp
+[3.238s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/libsquirtlebot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.238s] -- Set non-toolchain portion of runtime path of "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/libsquirtlebot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces
+[3.238s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail
+[3.239s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/squirtle_move__rosidl_typesupport_introspection_cpp.hpp
+[3.239s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/action/detail/squirtle_move__type_support.cpp
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/spawn_squirtle__type_support.cpp
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/kill_squirtle__rosidl_typesupport_introspection_cpp.hpp
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/kill_squirtle__type_support.cpp
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/srv/detail/spawn_squirtle__rosidl_typesupport_introspection_cpp.hpp
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail
+[3.239s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__rosidl_typesupport_introspection_cpp.hpp
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/kill_spawn_squirtle__type_support.cpp
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/kill_spawn_squirtle__rosidl_typesupport_introspection_cpp.hpp
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/active_squirtle_stats__rosidl_typesupport_introspection_cpp.hpp
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/active_squirtle_stats__type_support.cpp
+[3.239s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/include/squirtlebot_interfaces/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__type_support.cpp
+[3.239s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/libsquirtlebot_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.239s] -- Set non-toolchain portion of runtime path of "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/libsquirtlebot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.239s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/libsquirtlebot_interfaces__rosidl_typesupport_cpp.so
+[3.239s] -- Set non-toolchain portion of runtime path of "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/libsquirtlebot_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/environment/pythonpath.sh
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/environment/pythonpath.dsv
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces-0.0.0-py3.12.egg-info
+[3.239s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.239s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.239s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[3.239s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[3.239s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces
+[3.239s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/__init__.py
+[3.240s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/action
+[3.240s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/action/__init__.py
+[3.240s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/action/_squirtle_move_s.c
+[3.240s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/action/_squirtle_move.py
+[3.240s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/_squirtlebot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.240s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/squirtlebot_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.240s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/_squirtlebot_interfaces_s.ep.rosidl_typesupport_c.c
+[3.240s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/srv
+[3.240s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/srv/__init__.py
+[3.240s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/srv/_spawn_squirtle.py
+[3.240s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/srv/_kill_squirtle_s.c
+[3.240s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/srv/_kill_squirtle.py
+[3.240s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/srv/_spawn_squirtle_s.c
+[3.240s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/msg
+[3.240s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/msg/__init__.py
+[3.240s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/msg/_active_squirtle_stats_s.c
+[3.240s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/msg/_cancel_squirtle_move.py
+[3.240s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/msg/_active_squirtle_stats.py
+[3.240s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/msg/_cancel_squirtle_move_s.c
+[3.240s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/msg/_kill_spawn_squirtle.py
+[3.240s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/msg/_kill_spawn_squirtle_s.c
+[3.240s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/squirtlebot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.240s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/_squirtlebot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.240s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/squirtlebot_interfaces_s__rosidl_typesupport_c.so
+[3.273s] Listing '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces'...
+[3.273s] Compiling '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/__init__.py'...
+[3.273s] Listing '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/action'...
+[3.273s] Compiling '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/action/__init__.py'...
+[3.273s] Compiling '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/action/_squirtle_move.py'...
+[3.273s] Listing '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/msg'...
+[3.273s] Compiling '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/msg/__init__.py'...
+[3.273s] Compiling '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/msg/_cancel_squirtle_move.py'...
+[3.273s] Listing '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/srv'...
+[3.277s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/squirtlebot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.277s] -- Set non-toolchain portion of runtime path of "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/squirtlebot_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[3.277s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/squirtlebot_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.277s] -- Set non-toolchain portion of runtime path of "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/squirtlebot_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[3.277s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/squirtlebot_interfaces_s__rosidl_typesupport_c.so
+[3.277s] -- Set non-toolchain portion of runtime path of "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/python3.12/site-packages/squirtlebot_interfaces/squirtlebot_interfaces_s__rosidl_typesupport_c.so" to ""
+[3.277s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/libsquirtlebot_interfaces__rosidl_generator_py.so
+[3.277s] -- Set non-toolchain portion of runtime path of "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/lib/libsquirtlebot_interfaces__rosidl_generator_py.so" to ""
+[3.277s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/action/SquirtleMove.idl
+[3.277s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/msg/CancelSquirtleMove.idl
+[3.278s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/action/SquirtleMove.action
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/msg/CancelSquirtleMove.msg
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/ament_index/resource_index/package_run_dependencies/squirtlebot_interfaces
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/ament_index/resource_index/parent_prefix_path/squirtlebot_interfaces
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/environment/ament_prefix_path.sh
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/environment/ament_prefix_path.dsv
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/environment/path.sh
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/environment/path.dsv
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/local_setup.bash
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/local_setup.sh
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/local_setup.zsh
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/local_setup.dsv
+[3.278s] -- Installing: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/package.dsv
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/ament_index/resource_index/packages/squirtlebot_interfaces
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/export_squirtlebot_interfaces__rosidl_generator_cExport.cmake
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/export_squirtlebot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/export_squirtlebot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/export_squirtlebot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.278s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/squirtlebot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/squirtlebot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/squirtlebot_interfaces__rosidl_typesupport_cExport.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/squirtlebot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/export_squirtlebot_interfaces__rosidl_generator_cppExport.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/export_squirtlebot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/export_squirtlebot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/squirtlebot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/squirtlebot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/squirtlebot_interfaces__rosidl_typesupport_cppExport.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/squirtlebot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/export_squirtlebot_interfaces__rosidl_generator_pyExport.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/export_squirtlebot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/squirtlebot_interfacesConfig.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/cmake/squirtlebot_interfacesConfig-version.cmake
+[3.279s] -- Up-to-date: /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces/share/squirtlebot_interfaces/package.xml
+[3.280s] Invoked command in '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/actions_py:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/executors_py:/home/ben-may/ROS_Workspaces/ros2_ws_1/install/components_py:/home/ben-may/ROS_Workspaces/ros2_ws_moverobot/install/move_robot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_interfaces

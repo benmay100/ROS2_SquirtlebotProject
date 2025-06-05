@@ -1,0 +1,50 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from squirtlebot_interfaces/action/SquirtleMove.action
+// generated code does not contain a copyright notice
+
+
+module squirtlebot_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct SquirtleMove_Goal {
+      @verbatim (language="comment", text=
+        "between -5 to +5")
+      double linear_x;
+
+      @verbatim (language="comment", text=
+        "between -5 to +5")
+      double angular_z;
+
+      @verbatim (language="comment", text=
+        "seconds, maximum 20")
+      int32 duration;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct SquirtleMove_Result {
+      double final_position_x;
+
+      double final_position_y;
+
+      double final_theta_angle;
+
+      @verbatim (language="comment", text=
+        "E.g. 'successfully arrived at position'")
+      string result_message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct SquirtleMove_Feedback {
+      double current_position_x;
+
+      double current_position_y;
+
+      double current_theta_angle;
+
+      @verbatim (language="comment", text=
+        "E.g. queued")
+      string status;
+    };
+  };
+};

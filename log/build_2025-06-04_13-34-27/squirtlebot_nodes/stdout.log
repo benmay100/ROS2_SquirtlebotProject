@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/squirtle_controller.dir/src/squirtle_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_bridge.dir/src/turtlesim_bridge.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable turtlesim_bridge[0m
+[ 75%] Built target turtlesim_bridge

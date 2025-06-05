@@ -1,0 +1,14 @@
+{
+  "package_name": "squirtlebot_interfaces",
+  "output_dir": "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_interfaces/rosidl_generator_type_description/squirtlebot_interfaces",
+  "idl_tuples": [
+    "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_interfaces/rosidl_adapter/squirtlebot_interfaces:action/SquirtleMove.idl",
+    "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_interfaces/rosidl_adapter/squirtlebot_interfaces:msg/CancelSquirtleMove.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

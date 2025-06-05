@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000118] (-) JobUnselected: {'identifier': 'squirtlebot_bringup'}
+[0.000146] (-) JobUnselected: {'identifier': 'squirtlebot_interfaces'}
+[0.000163] (-) JobUnselected: {'identifier': 'squirtlebot_py'}
+[0.000179] (squirtlebot_nodes) JobQueued: {'identifier': 'squirtlebot_nodes', 'dependencies': OrderedDict({'squirtlebot_interfaces': '/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/install/squirtlebot_interfaces'})}
+[0.000200] (squirtlebot_nodes) JobStarted: {'identifier': 'squirtlebot_nodes'}
+[0.005577] (squirtlebot_nodes) JobEnded: {'identifier': 'squirtlebot_nodes', 'rc': 1}
+[0.015903] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+source;share/squirtlebot_nodes/local_setup.bash
+source;share/squirtlebot_nodes/local_setup.dsv
+source;share/squirtlebot_nodes/local_setup.sh
+source;share/squirtlebot_nodes/local_setup.zsh

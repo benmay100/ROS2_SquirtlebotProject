@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_nodes/turtlebot3_controller" "/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/build/squirtlebot_nodes/squirtle_controller" "TARGETS" "turtlebot3_controller" "squirtle_controller" "DESTINATION" "lib/squirtlebot_nodes/")

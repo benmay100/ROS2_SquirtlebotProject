@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/squirtlebot_interfaces/action/detail/squirtle_move__type_support_c.cpp.o"
+  "CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/squirtlebot_interfaces/action/detail/squirtle_move__type_support_c.cpp.o.d"
+  "CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__type_support_c.cpp.o"
+  "CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__type_support_c.cpp.o.d"
+  "libsquirtlebot_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libsquirtlebot_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/squirtlebot_interfaces/action/detail/squirtle_move__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/squirtlebot_interfaces/action/detail/squirtle_move__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/squirtlebot_interfaces/msg/detail/cancel_squirtle_move__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/squirtlebot_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

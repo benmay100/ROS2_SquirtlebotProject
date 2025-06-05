@@ -1,0 +1,15 @@
+setup.py
+squirtlebot_interfaces/__init__.py
+squirtlebot_interfaces.egg-info/PKG-INFO
+squirtlebot_interfaces.egg-info/SOURCES.txt
+squirtlebot_interfaces.egg-info/dependency_links.txt
+squirtlebot_interfaces.egg-info/top_level.txt
+squirtlebot_interfaces/action/__init__.py
+squirtlebot_interfaces/action/_squirtle_move.py
+squirtlebot_interfaces/msg/__init__.py
+squirtlebot_interfaces/msg/_active_squirtle_stats.py
+squirtlebot_interfaces/msg/_cancel_squirtle_move.py
+squirtlebot_interfaces/msg/_kill_spawn_squirtle.py
+squirtlebot_interfaces/srv/__init__.py
+squirtlebot_interfaces/srv/_kill_squirtle.py
+squirtlebot_interfaces/srv/_spawn_squirtle.py

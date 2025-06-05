@@ -1,0 +1,20 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/squirtle_controller.dir/src/squirtle_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_bridge.dir/src/turtlesim_bridge.cpp.o[0m
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/src/squirtlebot_nodes/src/squirtle_controller.cpp:3[m[K:
+[01m[K/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/src/squirtlebot_nodes/src/squirtle_controller.cpp:[m[K In member function ‘[01m[Kvoid SquirtleControllerNode::[01;32m[Kcall_spawn_squirtle_response_callback[m[K(rclcpp::Client<squirtlebot_interfaces::srv::SpawnSquirtle>::SharedFuture)[m[K’:
+[01m[K/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/src/squirtlebot_nodes/src/squirtle_controller.cpp:146:112:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<squirtlebot_interfaces::srv::SpawnSquirtle_Response_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct squirtlebot_interfaces::srv::SpawnSquirtle_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct squirtlebot_interfaces::srv::SpawnSquirtle_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knew_squirtle_name[m[K’
+  146 |                     RCLCPP_INFO_STREAM(this->get_logger(), "New squirtle spawned! It's name is: " << response->[01;31m[Knew_squirtle_name[m[K);
+      |                                                                                                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/src/squirtlebot_nodes/src/turtlesim_bridge.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimBridgeNode::[01;32m[Kcallback_squirtle_controller_subscriber_[m[K(squirtlebot_interfaces::msg::KillSpawnSquirtle_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ben-may/ROS_Workspaces/ros2_ws_finalproject/src/squirtlebot_nodes/src/turtlesim_bridge.cpp:89:115:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   89 | ller_subscriber_([01;35m[Kconst squirtlebot_interfaces::msg::KillSpawnSquirtle::SharedPtr msg[m[K)
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+gmake[2]: *** [CMakeFiles/squirtle_controller.dir/build.make:76: CMakeFiles/squirtle_controller.dir/src/squirtle_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/squirtle_controller.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable turtlesim_bridge[0m
+[ 75%] Built target turtlesim_bridge
+gmake: *** [Makefile:146: all] Error 2

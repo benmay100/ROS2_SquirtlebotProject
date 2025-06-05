@@ -1,0 +1,1 @@
+string kill_or_spawn    #Allowed ---> "kill" "spawn" "none"

@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from squirtlebot_interfaces/msg/KillSpawnSquirtle.msg
+// generated code does not contain a copyright notice
+
+
+module squirtlebot_interfaces {
+  module msg {
+    struct KillSpawnSquirtle {
+      @verbatim (language="comment", text=
+        "Allowed ---> \"kill\" \"spawn\" \"none\"")
+      string kill_or_spawn;
+    };
+  };
+};
